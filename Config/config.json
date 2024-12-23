@@ -38,11 +38,11 @@
 
     "//": "to add more gameserver on 'gameServerIP' add ip:port:playlist",
     "matchmakerIP": "127.0.0.1:80",
-    "gameServerIP": ["127.0.0.1:7777:playlist_defaultsolo"],
+    "gameServerIP": ["127.0.0.1:7777:playlist_defaultsolo", "127.0.0.1:7777:playlist_playground"],
     
     "//": "For 'BattlePassSeason' enter only the number of your season (from 2 to 20)",
-    "bEnableBattlepass": false,
-    "bBattlePassSeason": 2,
+    "bEnableBattlepass": true,
+    "bBattlePassSeason": 4,
 
     "//": "If 'bUseAutoRotate' is enabled it will automatically rotate the item shop using the time you put in 'bRotateTime', you can select the season limit with 'bSeasonLimit' (please only do up to season 10, it might be a bit broken after!), 'bRotateTime' means what time the shop rotates (it is UTC and uses the 24 hour clock, not 12 hour), for 'bItemShopWebhook' you have to generate a webhook to your item shop channel and put the link here, you can select how many cosmetics are in daily: 'bDailyItemsAmount' and featured: 'bFeaturedItemsAmount'",
     "bUseAutoRotate": false,
